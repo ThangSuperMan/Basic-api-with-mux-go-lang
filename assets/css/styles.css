@@ -1,0 +1,46 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.center-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background-color: orange;
+	display: grid;
+	place-items: center;
+	padding: 8px 16px;
+}
+
+.container-title {
+	margin-block: 8px;
+	font-size: 3.2rem;
+	font-weight: 300px;
+}
+
+.text-field {
+	margin-bottom: 8px;
+}
+
+.text-field input {
+	padding: 4px 8px;
+	border-radius: 5px;
+	border-color: #777;
+	outline-color: none;
+}
+
+.form-button {
+	padding: 4px 16px;
+	margin-inline: auto;
+}
+
+
